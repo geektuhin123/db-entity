@@ -166,11 +166,10 @@ const config = {
   license: {
     publicKey: privateTenantLicense
       ? privateTenantLicense.publicKey
-      : process.env.LICENSE_PUBLIC_KEY || '7G2xI9wCQ+lJEyEs2mOmGvx2Ri5pYGAAqrhUX3JcgZA=',
+      : process.env.LICENSE_PUBLIC_KEY || '',
     privateKey: privateTenantLicense
       ? privateTenantLicense.privateKey
-      : process.env.LICENSE_PRIVATE_KEY ||
-        'z5roWvyM4lrpb349e4SJKXTp7JAZPvbP7LbjwMO6k2bsbbEj3AJD6UkTISzaY6Ya/HZGLmlgYACquFRfclyBkA==',
+      : process.env.LICENSE_PRIVATE_KEY || '',
     licenseMeta: privateTenantLicense ? privateTenantLicense.licenseMeta : null,
     buildType: process.env.BUILD_TYPE ? process.env.BUILD_TYPE : 'enterprise-lite',
     checkSchedulerJobLimit: process.env.CHECK_SCHEDULER_JOB_LIMIT
