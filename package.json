@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm run lint"
+    "build": "npm run lint",
+    "lint": "eslint \"./**\""
   },
   "repository": {
     "type": "git",
