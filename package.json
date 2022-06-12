@@ -2,7 +2,7 @@
   "name": "db-entity",
   "version": "1.0.0",
   "description": "",
-  "main": "src/entity/index.ts",
+  "main": "dist/bundle.js",
   "scripts": {
     "build": "npm run lint && webpack --config ./webpack/webpack.config.prod.js",
     "lint": "eslint \"./**\""
